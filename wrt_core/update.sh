@@ -40,7 +40,7 @@ BASE_PATH=${BASE_PATH:-$SCRIPT_DIR}
 source "$SCRIPT_DIR/modules/network.sh"
 source "$SCRIPT_DIR/modules/repo.sh"
 source "$SCRIPT_DIR/modules/feeds.sh"
-#source "$SCRIPT_DIR/modules/custom_feed.sh"
+source "$SCRIPT_DIR/modules/custom_feed.sh"
 source "$SCRIPT_DIR/modules/passwall_fixes.sh"
 source "$SCRIPT_DIR/modules/verify.sh"
 source "$SCRIPT_DIR/modules/docker.sh"
