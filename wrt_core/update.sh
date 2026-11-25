@@ -173,7 +173,7 @@ main() {
     #stage_custom_feed_prepare
     stage_pre_install_source_fixes
     stage_feeds_install
-    stage_post_install_package_fixes
+    #stage_post_install_package_fixes
 }
 
 main "$@"
