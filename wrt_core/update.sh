@@ -91,7 +91,7 @@ stage_feed_source_cleanup() {
 
 stage_custom_feed_prepare() {
     # custom_feed 以 src-link 加入 feeds，仍属于 install 前阶段。
-    #install_custom_feed
+    install_custom_feed
 }
 
 stage_pre_install_source_fixes() {
@@ -169,7 +169,7 @@ main() {
     init_recipes
     stage_repo_checkout
     stage_upstream_feeds_update
-    stage_feed_source_cleanup
+    #stage_feed_source_cleanup
     #stage_custom_feed_prepare
     stage_pre_install_source_fixes
     stage_feeds_install
