@@ -170,7 +170,7 @@ main() {
     stage_repo_checkout
     stage_upstream_feeds_update
     stage_feed_source_cleanup
-    stage_custom_feed_prepare
+    #stage_custom_feed_prepare
     stage_pre_install_source_fixes
     stage_feeds_install
     stage_post_install_package_fixes
