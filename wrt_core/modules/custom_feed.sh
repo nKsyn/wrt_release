@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # custom_feed 同步、注册和路径辅助。
-
+return 0
 get_custom_feed_name() {
     printf '%s\n' "custom_feed"
 }
