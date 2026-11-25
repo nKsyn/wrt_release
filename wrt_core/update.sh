@@ -40,7 +40,7 @@ BASE_PATH=${BASE_PATH:-$SCRIPT_DIR}
 source "$SCRIPT_DIR/modules/network.sh"
 source "$SCRIPT_DIR/modules/repo.sh"
 source "$SCRIPT_DIR/modules/feeds.sh"
-source "$SCRIPT_DIR/modules/custom_feed.sh"
+#source "$SCRIPT_DIR/modules/custom_feed.sh"
 source "$SCRIPT_DIR/modules/passwall_fixes.sh"
 source "$SCRIPT_DIR/modules/verify.sh"
 source "$SCRIPT_DIR/modules/docker.sh"
@@ -91,7 +91,7 @@ stage_feed_source_cleanup() {
 
 stage_custom_feed_prepare() {
     # custom_feed 以 src-link 加入 feeds，仍属于 install 前阶段。
-    install_custom_feed
+    #install_custom_feed
 }
 
 stage_pre_install_source_fixes() {
